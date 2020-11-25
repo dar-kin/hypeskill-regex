@@ -1,0 +1,30 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # sorting function
+    def bubble_sort(a):
+        n = len(a)
+        for i in range(n - 1):
+            for j in range(n - i - 1):
+                if a[j] > a[j + 1]:
+                    a[j], a[j + 1] = a[j + 1], a[j]
+        return a
+
+    # where copying takes place
+    arr = [int(i) for i in input().split()]
+    sorted_arr = bubble_sort(arr)
+
+    if arr == sorted_arr:
+        print('sorted')
+    else:
+        print('not sorted')
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9278
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9278">JetBrains
+    Academy</a></html>
+  time: Thu, 17 Sep 2020 08:44:33 UTC
+record: -1

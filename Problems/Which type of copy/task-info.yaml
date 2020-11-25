@@ -1,0 +1,19 @@
+type: code
+custom_name: Which type of copy?
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import copy
+
+
+    def detect_copy():
+        pass
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9277
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9277">JetBrains
+    Academy</a></html>
+  time: Thu, 17 Sep 2020 08:36:32 UTC
+record: -1
